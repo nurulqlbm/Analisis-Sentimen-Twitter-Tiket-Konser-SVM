@@ -1,4 +1,4 @@
-# Pemodelan Analisis Sentimen Di Twitter Terhadap Harga Tiket Konser
+# Pemodelan Analisis Sentimen Di Twitter Terhadap Harga Tiket Konser 
 ## Pendahuluan
 Proyek ini berfokus pada analisis sentimen teks di media sosial Twitter (X), dengan topik sentimen penggemar K-pop terhadap harga tiket konser. Analisis ini dilakukan untuk memahami opini positif dan negatif yang muncul dalam diskusi di Twitter. 
 
