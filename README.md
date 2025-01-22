@@ -16,6 +16,8 @@ Dataset yang digunakan dalam proyek ini bersumber dari Twitter (X) melalui prose
     - Sentimen Positif: 1.017 tweet
     - Sentimen Negatif: 1.681 tweet
 
+       ![image](https://github.com/user-attachments/assets/0a7e1762-0b6c-4748-a611-b2e59cfc8c52)
+
 ## Metodologi
 Proyek ini terdiri dari beberapa tahapan utama:
 1.	Pengumpulan Data: Data dikumpulkan dari Twitter menggunakan Tweet-Harvest.
@@ -37,15 +39,27 @@ Proyek ini terdiri dari beberapa tahapan utama:
 6.	Evaluasi Model: Evaluasi dilakukan menggunakan metrik seperti akurasi dan confusion matrix.
 
 ## Hasil
--	Akurasi Tertinggi:
+-	**Akurasi Tertinggi**:
     - Skenario split data 90:10 dengan kernel polynomial mencapai akurasi 85,19%.
--	Evaluasi Confusion Matrix (90:10):
+
+      ![image](https://github.com/user-attachments/assets/03a0ffdb-3e5d-47ab-9532-01f34e5ee4e6)
+
+-	**Evaluasi Confusion Matrix (90:10)**:
     -	True Negative (TN): 137 data
     -	False Positive (FP): 19 data
     -	False Negative (FN): 21 data
     -	True Positive (TP): 93 data
--	Wordcloud Sentimen Positif: Kata-kata yang dominan menunjukkan antusiasme menonton, pembelian tiket, dan harga tiket yang dianggap layak.
--	Wordcloud Sentimen Negatif: Kata-kata yang muncul mencerminkan keluhan terhadap harga tiket yang dianggap mahal dan ketidakpuasan terhadap kebijakan promotor.
+
+      ![image](https://github.com/user-attachments/assets/5f97b684-b92f-45b8-b5af-359c0988b3bc)
+
+-	**Wordcloud Sentimen Positif**: Kata-kata yang dominan menunjukkan antusiasme menonton, pembelian tiket, dan harga tiket yang dianggap layak.
+
+      ![image](https://github.com/user-attachments/assets/9298667d-39f0-4017-884b-03afa2f9c352)
+
+-	**Wordcloud Sentimen Negatif**: Kata-kata yang muncul mencerminkan keluhan terhadap harga tiket yang dianggap mahal dan ketidakpuasan terhadap kebijakan promotor.
+
+      ![image](https://github.com/user-attachments/assets/527c1605-5163-4ab8-9c1e-f9e802719263)
+
 
 ## Kesimpulan
 Proyek ini menunjukkan bahwa metode machine learning dengan pendekatan Word2Vec dan SVM dapat secara efektif menganalisis sentimen penggemar K-pop terhadap harga tiket konser. 
