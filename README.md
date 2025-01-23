@@ -21,7 +21,7 @@ Dataset yang digunakan dalam proyek ini bersumber dari Twitter (X) melalui prose
 ## Metodologi
 Proyek ini terdiri dari beberapa tahapan utama:
 1.	Pengumpulan Data: Data dikumpulkan dari Twitter menggunakan Tweet-Harvest.
-2.	Praproses Data: Tahapan praproses meliputi:
+2.	Preprocessing Data: Tahapan preprocessing meliputi:
     -	Cleansing: Menghapus karakter yang tidak diperlukan seperti URL, emoji, dan tanda baca.
     -	Case folding: Mengubah teks menjadi huruf kecil.
     -	Tokenizing: Memisahkan teks menjadi token.
